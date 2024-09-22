@@ -1,0 +1,138 @@
+/* Colour Palette is 222831 393E46 D65A31 EEEEEE */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EEEEEE;
+    padding-top: 25px;
+}
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:link {
+    color: #222831;
+}
+
+a:visited {
+    color: #222831;
+}
+
+.titleBlock {
+    display: flex;
+    flex-flow: column wrap; /* allows content to wrap which helps with smaller screens */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titleBlockLayer2 {
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap; /* allows content to wrap which helps with smaller screens */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px 1px #c0c0c0;
+    border-radius: 5px;
+}
+
+.titleText {
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    line-height: 8px;
+}
+
+.titleImage {
+    display: inline;
+    float: left;
+    width: 130px;
+    height: 130px;
+}
+
+.titleName {
+    color: #222831;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.titleNameDetails {
+    color: #636363;
+    font-weight: 500;
+    text-align: left;
+}
+
+.titleLocation {
+    color: #D65A31;
+    font-weight: 300;
+    text-align: left;
+}
+
+.navigationList {
+    color: #222831;
+    font-weight: narrow;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    max-width: 720px;
+    
+    margin-bottom: 10px;
+}
+
+.blockTitle {
+    color: #222831;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockOrganization {
+    color: #222831;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockRole {
+    color: #222831;
+    font-weight: 400;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockDuration {
+    color: #636363;
+    font-weight: 100;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockParagraph {
+    color: #636363;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+
