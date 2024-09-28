@@ -8,10 +8,9 @@
 
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="images/pp_circle.png">
+
+        <script src="scripts.js"></script>
     </head>
-
-
-
 
 
     <body>
@@ -93,7 +92,15 @@
                     (September 2020 - present)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="bpReservoirEngineerSummary">
+                    Reservoir Engineer with experience in multi-disciplinary integration in support of surveillance, 
+                    production forecasting, history matching, reservoir characterization, infill target definition, 
+                    supporting infill drilling, and dynamic and static volumetric re-conciliation.
+                </p>
+
+                <button onclick=togglebpReservoirEngineerParagraph() id="bpReservoirEngineerButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="bpReservoirEngineer">
                     Reservoir Engineer in West Nile Delta Depletion Management Squad working on maximizing gas production through 
                     integrated multi-disciplinary subsurface work in support of various projects. 
                     <br><br>
@@ -136,7 +143,13 @@
                     (September 2019 - July 2020)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="UoADemonstratorSummary">
+                    Demonstrator for the labs in EG3007: Engineering Analysis and Methods 1a.
+                </p>
+
+                <button onclick=toggleUoADemonstratorParagraph() id="UoADemonstratorButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="UoADemonstrator">
                     I demonstrated for the course EG3007 Engineering Analysis & Methods aiding and teaching 
                     fellow students in the use of MATLAB in engineering.
                 </p>
@@ -153,7 +166,15 @@
                     (June 2019 - August 2019)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="ConocoPhillipsSummary">
+                    Production Engineering intern focussed on evaluating the value of H2S scavenging and determining 
+                    the need of methanol injections at various injection points based on latest pressure and temperature 
+                    data.
+                </p>
+
+                <button onclick=toggleConocoPhillipsInternParagraph() id="ConocoPhillipsInternButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="ConocoPhillipsIntern">
                     Projects:
                     <br><br>
                     1. Create a numerical model of the export H2S concentration of the J-Area export gas 
@@ -179,7 +200,15 @@
                     (May 2018 - June 2018)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="CrescentPetroleumDanaGasTraineeSummary">
+                    Petroleum Engineering trainee with a focus on gaining field experience with the 
+                    maintenance, drilling warehouse, process engineering, and engineering teams on the Khor Mor 
+                    LNG site in Northern Iraq.
+                </p>
+
+                <button onclick=toggleCrescentPetroleumDanaGasTraineeParagraph() id="CrescentPetroleumDanaGasTraineeButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="CrescentPetroleumDanaGasTrainee">
                     I shadowed various teams (Maintenance, Drilling Warehouse, Process Engineering, Engineering) in the Khor Mor 
                     facility in northern Iraq to learn about gas extraction operations and gain first hand experience in the industry.
                     Here is where I gained an appreciation for the size and importance of the multi-disciplinary team work necessary
@@ -208,7 +237,16 @@
                     (September 2016 - July 2020)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="UoABachelorsSummary">
+                    First Class Honours (20.17)
+                    <br><br>
+                    Courses: Engineering Mathematics, Mechanics, Thermodynamics, Fluid Mechanics, Petroleum Geology, 
+                    Drilling & Well Engineering, Production Engineering, Reservoir Engineering, and Well Testing.
+                </p>
+
+                <button onclick=toggleUoABachelorsParagraph() id="UoABachelorsButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="UoABachelors">
                     Grade: First Class Honours (20.17)
                     <br><br>
                     Activities and societies: 
@@ -219,7 +257,8 @@
                     <br><br>
                     I have achieved a Bachelor of Engineering in Petroleum Engineering with First Class Honours (20.17) 
                     at the University of Aberdeen. Courses included: Engineering Mathematics, Mechanics, Thermodynamics, 
-                    Fluid Mechanics, Petroleum Geology, Drilling & Well Engineering, Reservoir Engineering, and Well Testing.
+                    Fluid Mechanics, Petroleum Geology, Drilling & Well Engineering, Production Engineering, 
+                    Reservoir Engineering, and Well Testing.
                 </p>
                 
                 <h3 class="blockOrganization">
@@ -234,7 +273,13 @@
                     (September 2011 - May 2016)
                 </h4>
 
-                <p class="blockParagraph">
+                <p class="blockSummary" id="CSMHighSchoolSummary">
+                    GPA: 4.2778
+                </p>
+
+                <button onclick=toggleCSMHighSchoolParagraph() id="CSMHighSchoolButton" class="blockParagraphButtonClass">▽</button>
+
+                <p class="blockParagraph" id="CSMHighSchool">
                     GPA: 4.2778
                     <br><br>
                     Activities and societies: 
